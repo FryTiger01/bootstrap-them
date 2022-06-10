@@ -1,0 +1,424 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- css -->
+    <link rel="stylesheet" href="style/style.css">
+    <title>Template bootstrap</title>
+  </head>
+  <body>
+      <!-- nav -->
+    <div class="bg-white shadow fixed-top">
+        <nav class="navbar navbar-expand-sm p-1">
+            <div class="container-fluid">
+              <a class="navbar-brand text-dark" href="#"><img src="assets/logo web.png" alt=""> Bootstrap Them</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+                <img src="assets/icons8-menu-30.png" alt="">
+              </button>
+              <div class="collapse navbar-collapse" id="mynavbar">
+                <ul class="navbar-nav mx-auto">
+                  <li class="nav-item px-3">
+                    <a class="nav-link fs-6 fw-bold text-dark" href="#">Home</a>
+                  </li>
+                  <li class="nav-item px-3">
+                    <a class="nav-link fs-6 fw-bold text-dark" href="#feature">Features</a>
+                  </li>
+                  <li class="nav-item px-3">
+                    <a class="nav-link fs-6 fw-bold text-dark" href="#about">About</a>
+                  </li>
+                  <li class="nav-item px-3">
+                    <a class="nav-link fs-6 fw-bold text-dark" href="#faq">FAQ</a>
+                  </li>
+                </ul>
+   
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    Get Started
+                </button>
+                <!-- ----------- -->
+                <!-- top button -->
+                <a href="#" class="top-btn text-white bg-primary d-flex rounded-circle p-2 position-fixed">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="27" height="27" fill="currentColor" class="bi bi-arrow-up" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M8 15a.5.5 0 0 0 .5-.5V2.707l3.146 3.147a.5.5 0 0 0 .708-.708l-4-4a.5.5 0 0 0-.708 0l-4 4a.5.5 0 1 0 .708.708L7.5 2.707V14.5a.5.5 0 0 0 .5.5z"/>
+                    </svg>
+                </a>
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Send Email</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <form action="#" class="p-4 rounded">
+                                <div class="mb-3">
+                                    <label for="Email" class="form-label">Your Email</label>
+                                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                                  </div>
+                            </form>
+                        </div>
+                        <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Send</button>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+          </nav>
+    </div>
+    <!-- header -->
+    <header class="">
+        <section class="container my-5 py-4">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <h2 class="display-4 mb-4">Lorem <span class="text-warning">ipsum</span> dolor sit!</h2>
+                    <p class="lead text-muted mb-4">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere culpa, neque enim molestiae voluptate iste maiores incidunt expedita?
+                    </p>
+                    <div class="text-center text-md-start">
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                            Get Started
+                        </button>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <img src="assets/header-svg.svg" class="img-fluid" alt="img">
+                </div>
+            </div>
+        </section>
+    </header>
+    <!-- section -->
+    <div class="p-4 sec" id="feature">
+        <section class="container">
+            <h2 class="display-5 text-center mt-5">Features</h2>
+            <p class="text-center lead text-muted mb-5">Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                Accusamus harum ducimus asperiores ullam. 
+                Consequatur veritatis hic illum quaerat iure
+                blanditiis voluptatem nulla esse temporibus 
+                dolorem necessitatibus, omnis atque. Perspiciatis
+            </p>
+            <div class="row g-4">
+                <div class="col-xl-4 col-md-6">
+                    <div class="card text-center p-5">
+                        <div class="card-body">
+                            <img class="mb-4" src="assets/icons8-javascript.gif" width="48px" alt="">
+                          <h5 class="card-title">JavaScipt</h5>
+                          <p class="card-text lead text-muted">With supporting text below as a natural lead-in to additional content.</p>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-xl-4 col-md-6">
+                    <div class="card text-center p-5">
+                        <div class="card-body">
+                            <img class="mb-4" src="assets/icons8-python.gif" width="48px" alt="">
+                          <h5 class="card-title">Python</h5>
+                          <p class="card-text lead text-muted">With supporting text below as a natural lead-in to additional content.</p>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-xl-4 col-md-6">
+                    <div class="card text-center p-5">
+                        <div class="card-body">
+                            <img class="mb-4" src="assets/icons8-html-5-48.png" width="48px" alt="">
+                          <h5 class="card-title">HTML</h5>
+                          <p class="card-text lead text-muted">With supporting text below as a natural lead-in to additional content.</p>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-xl-4 col-md-6">
+                    <div class="card text-center p-5">
+                        <div class="card-body">
+                            <img class="mb-4" src="assets/icons8-css3-48.png" width="48px" alt="">
+                          <h5 class="card-title">CSS</h5>
+                          <p class="card-text lead text-muted">With supporting text below as a natural lead-in to additional content.</p>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-xl-4 col-md-6">
+                    <div class="card text-center p-5">
+                        <div class="card-body">
+                            <img class="mb-4" src="assets/icons8-react.gif" width="48px" alt="">
+                          <h5 class="card-title">React.js</h5>
+                          <p class="card-text lead text-muted">With supporting text below as a natural lead-in to additional content.</p>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-xl-4 col-md-6">
+                    <div class="card text-center p-5">
+                        <div class="card-body">
+                            <img class="mb-4" src="assets/icons8-vue-js-48.png" width="48px" alt="">
+                          <h5 class="card-title">Vue.js</h5>
+                          <p class="card-text lead text-muted">With supporting text below as a natural lead-in to additional content.</p>
+                        </div>
+                      </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <!-- sec 2 -->
+    <!-- vue sec -->
+    <div class="sec-one d-flex align-items-center">
+        <section class="container my-5 py-4">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <img src="assets/vuejs-ar21.png" class="img-fluid" alt="img">
+                </div>
+                <div class="col-md-6">
+                    <h2 class="display-4 mb-4">Be<span class="text-success"> Fast </span> and <span class="text-success">reactive</span></h2>
+                    <p class="lead text-muted mb-4">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere culpa, neque enim molestiae voluptate iste maiores incidunt expedita?
+                    </p>
+                    <div class="text-center text-md-start mt-3">
+                        <button class="btn btn-success" type="button">Read More...</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+        <!-- react sec -->
+    <div class="bg-dark sec-two d-flex align-items-center">
+        <section class="container my-5 py-4">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <img src="assets/react-logo.png" class="img-fluid" alt="img">
+                </div>
+                <div class="col-md-6">
+                    <h2 class="display-4 mb-4 text-white">For <span class="text-info">big Projects</span></h2>
+                    <p class="lead text-muted mb-4">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere culpa, neque enim molestiae voluptate iste maiores incidunt expedita?
+                    </p>
+                    <div class="text-center text-md-start mt-3">
+                        <button class="btn btn-info" type="button">Read More...</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <!-- gallery -->
+    <div class="py-4" id="about">
+        <section class="container">
+            <h2 class="display-5 text-center mt-2">Recents Posts</h2>
+            <p class="text-center lead text-muted mb-5">Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="card mb-3">
+                        <img src="assets/icons8-javascript.gif" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">JavaScript</h5>
+                          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                          <a href="#" class="card-text text-decoration-none">Read more...</a>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card mb-3">
+                        <img src="assets/icons8-vue-js-48.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Vue.js</h5>
+                          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                          <a href="#" class="card-text text-decoration-none">Read more...</a>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card mb-3">
+                        <img src="assets/icons8-react.gif" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">React.js</h5>
+                          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                          <a href="#" class="card-text text-decoration-none">Read more...</a>
+                        </div>
+                      </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <!-- questions -->
+    <div class="p-4 sec" id="faq">
+        <section class="container">
+            <h2 class="display-5 text-center mt-5">Ferquently asked Questions</h2>
+            <p class="text-center lead text-muted mb-5">Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                Accusamus harum ducimus asperiores ullam. 
+                Consequatur veritatis hic illum quaerat iure
+                blanditiis voluptatem nulla esse temporibus 
+                dolorem necessitatibus, omnis atque. Perspiciatis
+            </p>
+            <div class="accordion accordion-flush pb-3" id="accordionFlushExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingOne">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                      Question #1
+                    </button>
+                  </h2>
+                  <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                      Question #2
+                    </button>
+                  </h2>
+                  <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                      Question #3
+                    </button>
+                  </h2>
+                  <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingOne">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFore" aria-expanded="false" aria-controls="flush-collapseFore">
+                      Question #4
+                    </button>
+                  </h2>
+                  <div id="flush-collapseFore" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingOne">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
+                        Question #5
+                      </button>
+                    </h2>
+                    <div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                      <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingOne">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapseSix">
+                        Question #6
+                      </button>
+                    </h2>
+                    <div id="flush-collapseSix" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                      <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
+                    </div>
+                  </div>
+              </div>
+              
+    </section>
+    </div>
+    <div class="py-4">
+        <section class="container">
+            <h2 class="display-5 text-center mt-5">Contact</h2>
+            <p class="text-center lead text-muted mb-5">Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                Accusamus harum ducimus asperiores ullam. 
+                Consequatur veritatis hic illum quaerat iure
+            </p>
+            <div class="row g-4">
+                <div class="col-md-6">
+                    <div class="row g-4">
+                        <div class="col-md-6">
+                            <div class="border-1 rounded bg-light p-4">
+                            <img src="assets/icons8-location-48.png" alt="#">
+                            <h2>Address</h2>
+                            <div>Iran / Karaj</div>
+                            <div>Karaj.....</div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="border-1 rounded bg-light p-4">
+                                <img src="assets/icons8-mail-48.png" alt="#">
+                                <h2>Mail</h2>
+                                <div>Faramarzkord7@gmail.com</div>
+                                <div>Faramarzkord777@gmail.com</div>
+                            </div>    
+                        </div>
+                        <div class="col-md-6">
+                            <div class="border-1 rounded bg-light p-4">
+                                <img src="assets/icons8-clock-48.png" alt="#">
+                                <h2>Open Hours</h2>
+                                <div>Monday - Fryday</div>
+                                <div>9:00 - 05:00PH</div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="border-1 rounded bg-light p-4">
+                                <img src="assets/icons8-callback-48.png" alt="#">
+                                <h2>Call Us</h2>
+                                <div>+98 990-511-8930</div>
+                                <div>+98 904-528-3638</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <form action="#" class="bg-light p-4 rounded">
+                        <div class="mb-3">
+                            <label for="Email" class="form-label">Your Nmae</label>
+                            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Full name">
+                          </div>
+                        <div class="mb-3">
+                            <label for="Email" class="form-label">Your Email</label>
+                            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                          </div>
+                          <div class="mb-3">
+                            <label for="Comment" class="form-label">Your Comments</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                          </div>
+                          <button class="btn btn-primary p-2 send">Send</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </div>
+    <!-- footer -->
+    <div class="py-4 mt-3 bg-dark">
+        <footer class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <h2 class="mb-4 text-white">Web Developer</h2>
+                    <p class="mb-4 text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident temporibus voluptatum reprehenderit odio sunt ex.</p>
+                </div>
+                <div class="col-md-3">
+                    <h3 class="mb-4 text-white border-start border-4 ps-3 border-primary">Pages</h3>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class=" text-white text-decoration-none" >Vue</a></li>
+                        <li><a href="#" class=" text-white text-decoration-none">React</a></li>
+                        <li><a href="#" class=" text-white text-decoration-none">Angular</a></li>
+                        <li><a href="#" class=" text-white text-decoration-none">Node</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h3 class="mb-4 text-white  border-start border-4 ps-3 border-primary">Posts</h3>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class=" text-white text-decoration-none" >Vue</a></li>
+                        <li><a href="#" class=" text-white text-decoration-none">React</a></li>
+                        <li><a href="#" class=" text-white text-decoration-none">Angular</a></li>
+                        <li><a href="#" class=" text-white text-decoration-none">Node</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h3 class="mb-4 text-white  border-start border-4 ps-3 border-primary">More</h3>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-white text-decoration-none" >Vue</a></li>
+                        <li><a href="#" class="text-white text-decoration-none">React</a></li>
+                        <li><a href="#" class="text-white text-decoration-none">Angular</a></li>
+                        <li><a href="#" class="text-white text-decoration-none">Node</a></li>
+                    </ul>
+                </div>
+            </div>
+            <hr class="bg-light">
+            <div class="text-center text-white">Designed By FryTiger</div>
+        </footer>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  </body>
+</html>
